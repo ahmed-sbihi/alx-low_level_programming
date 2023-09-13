@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
             _putchar(letter);
             letter++;
         }
-        letter = 'a'; // Reset letter to 'a' for the next line
+        letter = 'a'; /* Reset letter to 'a' for the next line */
         _putchar('\n');
     }
 }
