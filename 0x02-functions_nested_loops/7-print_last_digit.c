@@ -8,16 +8,21 @@
  */
 int print_last_digit(int n)
 {
-    int last_digit;
+	if (n == INT_MIN)
+	{
+		return (8); /* Handle INT_MIN explicitly */
+	}
+	else
+	{
+		if (n < 0)
+		{
+			n = -n; /* Make n positive to handle negative input */
+		}
 
-    if (n < 0)
-    {
-        n = -n; /* Make n positive to handle negative input */
-    }
+		int last_digit = n % 10; /* Extract the last digit */
 
-    last_digit = n % 10; /* Extract the last digit */
+		_putchar('0' + last_digit); /* Print the last digit */
 
-    _putchar('0' + last_digit); /* Print the last digit */
-
-    return (last_digit);
+		return (last_digit);
+	}
 }
