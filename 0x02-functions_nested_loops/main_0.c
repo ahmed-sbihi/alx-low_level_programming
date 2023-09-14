@@ -1,4 +1,4 @@
-#include "11-print_to_98.c"
+#include "holberton.h"
 
 /**
  * main - check the code

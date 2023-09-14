@@ -1,4 +1,4 @@
-#include <stdio.h> /* Include the necessary header file */
+#include "holberton.h"
 
 /**
  * print_to_98 - Prints all natural numbers from n to 98
