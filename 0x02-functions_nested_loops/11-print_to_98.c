@@ -16,5 +16,5 @@ void print_to_98(int n)
         else
             n--;
     }
-    printf("98\n"); // Print the final number and a newline
+    printf("98\n"); /* Print the final number and a newline */
 }
