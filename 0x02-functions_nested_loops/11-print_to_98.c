@@ -7,7 +7,7 @@
  */
 void print_to_98(int n)
 {
-    int i; // Declare 'i' outside of the loop
+    int i; /* Declare 'i' outside of the loop */
 
     if (n <= 98)
     {
