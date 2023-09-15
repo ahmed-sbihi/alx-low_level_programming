@@ -9,17 +9,23 @@
  */
 int print_sign(int n)
 {
-	if (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	} else if (n == 0)
-}
-		_putchar(48);
-		return (0);
-	} else if (n < 0)
-	{
-		_putchar('-');
-	}
-		return (-1);
+    if (n > 0)
+    {
+        _putchar('+');
+        return (1);
+    }
+    else if (n == 0)
+    {
+        _putchar('0');
+        return (0);
+    }
+    else if (n < 0)
+    {
+        _putchar('-');
+        return (-1);
+    }
+
+    /* Handle the case when none of the conditions match
+       Return a default value (0 in this case) */
+    return (0);
 }
